@@ -1,0 +1,27 @@
+.calendar{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 20px;
+}
+.date{
+    background-color: rgb(44, 41, 41);
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.prev-next-date{
+    opacity: 0.4;
+}
+.day{
+    background-color: rgb(109, 7, 109);
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
